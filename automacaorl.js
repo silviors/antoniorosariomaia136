@@ -24,18 +24,6 @@ function AlteraRele2(){
     }
 }
 
-function AlteraRele3(){
-    var estado_3 = document.getElementById("estado_3").innerHTML;
-    if(estado_3 === "0"){
-        document.getElementById("estado_3").innerHTML="1";
-        document.getElementById("rele_3").innerHTML="<div class='rele3_ligado'></div>";
-		document.getElementById("botao_3").innerHTML="<a href='/?3_desligar' class='botao_3'>Desliga</a>";
-    } else {
-        document.getElementById("estado_3").innerHTML="0";
-        document.getElementById("rele_3").innerHTML="<div class='rele3_desligado'></div>";
-        document.getElementById("botao_3").innerHTML="<a href='/?3_ligar' class='botao_3'>Liga</a>";
-    }
-}
 
 
  
