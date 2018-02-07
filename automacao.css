@@ -11,7 +11,7 @@ body {
     padding-top: 40px;
     position: relative;
     width: 530px;
-    height: 600px;
+    height: 5000px;
 	margin-right: auto;
 	margin-top: 0;
 	margin-left: auto;
@@ -187,10 +187,10 @@ div.rele3_desligado {
 	top:1px;
 }
 
-#botao_3{
+#botao_2{
     position: absolute;
     right: 230px;
-    top: 584px;
+    top: 417px;
 	 width: 200px;
     height: 256px;
 }
@@ -222,4 +222,12 @@ div.rele3_desligado {
 }.botao_3:active {
 	position:relative;
 	top:1px;
+}
+
+#botao_3{
+    position: absolute;
+    right: 230px;
+    top: 417px;
+	 width: 200px;
+    height: 256px;
 }
